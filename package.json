@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "_mocha ./test/test.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
-    "request": "^2.88.2"
+    "nodemon": "^2.0.12"
   },
   "devDependencies": {
-    "jasmine-node": "^3.0.0"
+    "mocha": "^9.0.3",
+    "supertest": "^6.1.5"
   }
 }
